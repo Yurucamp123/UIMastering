@@ -55,7 +55,7 @@ const PaymentList = () => {
         contentContainerStyle={{
           gap: s(16),
           paddingHorizontal: s(16),
-          paddingTop: vs(15),
+          paddingTop: vs(5),
         }}
       />
     </View>

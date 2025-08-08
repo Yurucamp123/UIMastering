@@ -1,5 +1,5 @@
 {
-  "name": "uimastering",
+  "name": "UIMastering",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -10,13 +10,16 @@
   },
   "dependencies": {
     "expo": "~53.0.20",
-    "expo-app-loading": "^2.1.1",
+    "expo-app-loading": "^1.0.3",
+    "expo-linear-gradient": "^14.1.5",
     "expo-status-bar": "~2.2.3",
+    "lottie-react-native": "7.2.2",
     "react": "19.0.0",
     "react-native": "0.79.5",
     "react-native-safe-area-context": "5.4.0",
     "react-native-size-matters": "^0.4.2",
-    "react-native-svg": "15.11.2"
+    "react-native-svg": "15.11.2",
+    "react-native-vector-icons": "^10.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

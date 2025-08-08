@@ -3,7 +3,7 @@ import * as Font from "expo-font";
 import { useState } from "react";
 import { StyleSheet } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import PaymentScreen from "./src/screens/PaymentScreen";
+import ProductScreen from "./src/screens/ProductScreen";
 export default function App() {
   const [fontsLoaded, setFontsLoaded] = useState(false);
   const loadFonts = () =>
@@ -23,7 +23,7 @@ export default function App() {
   }
   return (
     <SafeAreaProvider>
-      <PaymentScreen />
+      <ProductScreen />
     </SafeAreaProvider>
   );
 }
